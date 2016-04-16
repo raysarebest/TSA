@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController{
+class MHViewController: UIViewController{
     @IBOutlet weak var arrowView: UIImageView!
     @IBOutlet weak var directionLabel: UILabel!
     override func viewDidLoad() -> Void{

@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="width" secondItem="js7-KT-Xyo" secondAttribute="height" multiplier="386:191" id="rlY-ZG-RiW"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RIGHT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REk-lB-gse">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RIGHT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REk-lB-gse">
                                 <rect key="frame" x="182" y="403" width="237" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="XeE-Iz-OrF"/>

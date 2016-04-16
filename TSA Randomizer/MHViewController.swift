@@ -8,9 +8,18 @@
 
 import UIKit
 
-enum MHArrowImages: String{
-    case Left = "left-arrow"
-    case Right = "right-arrow"
+enum MHDirection: String{
+    case Left
+    case Right
+    init(bool: Bool){
+        self = bool ? .Left : .Right
+    }
+    static func random() -> MHDirection{
+        return MHDirection(bool: Bool(round(Double(arc4random()) / Double(UINT32_MAX))))
+    }
+    func toImage() -> UIImage{
+        return UIImage(named: self == .Left ? "left-arrow" : "right-arrow")!
+    }
 }
 
 class ViewController: UIViewController{
@@ -29,13 +38,8 @@ class ViewController: UIViewController{
         randomize()
     }
     func randomize() -> Void{
-        if Bool(round(Double(arc4random()) / Double(UINT32_MAX))){
-            arrowView.image = UIImage(named: MHArrowImages.Left.rawValue)
-            directionLabel.text = "LEFT"
-        }
-        else{
-            arrowView.image = UIImage(named: MHArrowImages.Right.rawValue)
-            directionLabel.text = "RIGHT"
-        }
+        let choice = MHDirection.random()
+        arrowView.image = choice.toImage()
+        directionLabel.text = choice.rawValue.uppercaseString
     }
 }

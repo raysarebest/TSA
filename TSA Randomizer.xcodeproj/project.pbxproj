@@ -14,6 +14,8 @@
 		4CDB6B321CC1C57900A988C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6B301CC1C57900A988C8 /* LaunchScreen.storyboard */; };
 		4CDB6B3D1CC1C57A00A988C8 /* TSA_RandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B3C1CC1C57A00A988C8 /* TSA_RandomizerTests.swift */; };
 		4CDB6B481CC1C57A00A988C8 /* TSA_RandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B471CC1C57A00A988C8 /* TSA_RandomizerUITests.swift */; };
+		4CDB6B561CC2097000A988C8 /* MHDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B551CC2097000A988C8 /* MHDirection.swift */; };
+		4CDB6B581CC209A400A988C8 /* MHRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B571CC209A400A988C8 /* MHRandom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4CDB6B431CC1C57A00A988C8 /* TSA RandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSA RandomizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDB6B471CC1C57A00A988C8 /* TSA_RandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_RandomizerUITests.swift; sourceTree = "<group>"; };
 		4CDB6B491CC1C57A00A988C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB6B551CC2097000A988C8 /* MHDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHDirection.swift; sourceTree = "<group>"; };
+		4CDB6B571CC209A400A988C8 /* MHRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRandom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				4CDB6B271CC1C57900A988C8 /* MHAppDelegate.swift */,
 				4CDB6B291CC1C57900A988C8 /* MHViewController.swift */,
+				4CDB6B551CC2097000A988C8 /* MHDirection.swift */,
+				4CDB6B571CC209A400A988C8 /* MHRandom.swift */,
 				4CDB6B2B1CC1C57900A988C8 /* Main.storyboard */,
 				4CDB6B2E1CC1C57900A988C8 /* Assets.xcassets */,
 				4CDB6B301CC1C57900A988C8 /* LaunchScreen.storyboard */,
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDB6B561CC2097000A988C8 /* MHDirection.swift in Sources */,
 				4CDB6B2A1CC1C57900A988C8 /* MHViewController.swift in Sources */,
 				4CDB6B281CC1C57900A988C8 /* MHAppDelegate.swift in Sources */,
+				4CDB6B581CC209A400A988C8 /* MHRandom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

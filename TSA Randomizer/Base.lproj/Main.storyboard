@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="js7-KT-Xyo">
+                                <rect key="frame" x="107" y="204" width="386" height="191"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="js7-KT-Xyo" secondAttribute="height" multiplier="386:191" id="rlY-ZG-RiW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RIGHT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REk-lB-gse">
+                                <rect key="frame" x="182" y="403" width="237" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="XeE-Iz-OrF"/>
+                                    <constraint firstAttribute="width" constant="237" id="mua-lX-LXB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="79"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="REk-lB-gse" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7m8-Ml-UcM"/>
+                            <constraint firstItem="js7-KT-Xyo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IWk-bo-zGr"/>
+                            <constraint firstItem="js7-KT-Xyo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="107" id="Scc-4X-Q7W"/>
+                            <constraint firstItem="js7-KT-Xyo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VYa-AQ-o7t"/>
+                            <constraint firstAttribute="trailing" secondItem="js7-KT-Xyo" secondAttribute="trailing" constant="107" id="bkE-Af-UlE"/>
+                            <constraint firstItem="REk-lB-gse" firstAttribute="top" secondItem="js7-KT-Xyo" secondAttribute="bottom" constant="8" id="gnR-eP-DHf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="arrowView" destination="js7-KT-Xyo" id="klQ-dn-xD7"/>
+                        <outlet property="directionLabel" destination="REk-lB-gse" id="CTR-IK-zbX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="299" y="171"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="left-arrow" width="4170" height="2082"/>
+    </resources>
 </document>

@@ -20,7 +20,7 @@ class MHViewController: UIViewController{
         randomize()
     }
     func randomize() -> Void{
-        let choice = MHDirection.random()
+        let choice = MHRandomDirectionGenerator.defaultGenerator.next()
         arrowView.image = choice.toImage()
         directionLabel.text = choice.rawValue.uppercaseString
     }

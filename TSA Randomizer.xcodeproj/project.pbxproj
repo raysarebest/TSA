@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDB6B281CC1C57900A988C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B271CC1C57900A988C8 /* AppDelegate.swift */; };
+		4CDB6B2A1CC1C57900A988C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B291CC1C57900A988C8 /* ViewController.swift */; };
+		4CDB6B2D1CC1C57900A988C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6B2B1CC1C57900A988C8 /* Main.storyboard */; };
+		4CDB6B2F1CC1C57900A988C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6B2E1CC1C57900A988C8 /* Assets.xcassets */; };
+		4CDB6B321CC1C57900A988C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6B301CC1C57900A988C8 /* LaunchScreen.storyboard */; };
+		4CDB6B3D1CC1C57A00A988C8 /* TSA_RandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B3C1CC1C57A00A988C8 /* TSA_RandomizerTests.swift */; };
+		4CDB6B481CC1C57A00A988C8 /* TSA_RandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6B471CC1C57A00A988C8 /* TSA_RandomizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDB6B391CC1C57A00A988C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDB6B1C1CC1C57900A988C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDB6B231CC1C57900A988C8;
+			remoteInfo = "TSA Randomizer";
+		};
+		4CDB6B441CC1C57A00A988C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDB6B1C1CC1C57900A988C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDB6B231CC1C57900A988C8;
+			remoteInfo = "TSA Randomizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDB6B241CC1C57900A988C8 /* TSA Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSA Randomizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDB6B271CC1C57900A988C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CDB6B291CC1C57900A988C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CDB6B2C1CC1C57900A988C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDB6B2E1CC1C57900A988C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDB6B311CC1C57900A988C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDB6B331CC1C57900A988C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB6B381CC1C57A00A988C8 /* TSA RandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSA RandomizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDB6B3C1CC1C57A00A988C8 /* TSA_RandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_RandomizerTests.swift; sourceTree = "<group>"; };
+		4CDB6B3E1CC1C57A00A988C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB6B431CC1C57A00A988C8 /* TSA RandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSA RandomizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDB6B471CC1C57A00A988C8 /* TSA_RandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_RandomizerUITests.swift; sourceTree = "<group>"; };
+		4CDB6B491CC1C57A00A988C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDB6B211CC1C57900A988C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6B351CC1C57A00A988C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6B401CC1C57A00A988C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDB6B1B1CC1C57900A988C8 = {
+			isa = PBXGroup;
+			children = (
+				4CDB6B261CC1C57900A988C8 /* TSA Randomizer */,
+				4CDB6B3B1CC1C57A00A988C8 /* TSA RandomizerTests */,
+				4CDB6B461CC1C57A00A988C8 /* TSA RandomizerUITests */,
+				4CDB6B251CC1C57900A988C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDB6B251CC1C57900A988C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6B241CC1C57900A988C8 /* TSA Randomizer.app */,
+				4CDB6B381CC1C57A00A988C8 /* TSA RandomizerTests.xctest */,
+				4CDB6B431CC1C57A00A988C8 /* TSA RandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDB6B261CC1C57900A988C8 /* TSA Randomizer */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6B271CC1C57900A988C8 /* AppDelegate.swift */,
+				4CDB6B291CC1C57900A988C8 /* ViewController.swift */,
+				4CDB6B2B1CC1C57900A988C8 /* Main.storyboard */,
+				4CDB6B2E1CC1C57900A988C8 /* Assets.xcassets */,
+				4CDB6B301CC1C57900A988C8 /* LaunchScreen.storyboard */,
+				4CDB6B331CC1C57900A988C8 /* Info.plist */,
+			);
+			path = "TSA Randomizer";
+			sourceTree = "<group>";
+		};
+		4CDB6B3B1CC1C57A00A988C8 /* TSA RandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6B3C1CC1C57A00A988C8 /* TSA_RandomizerTests.swift */,
+				4CDB6B3E1CC1C57A00A988C8 /* Info.plist */,
+			);
+			path = "TSA RandomizerTests";
+			sourceTree = "<group>";
+		};
+		4CDB6B461CC1C57A00A988C8 /* TSA RandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6B471CC1C57A00A988C8 /* TSA_RandomizerUITests.swift */,
+				4CDB6B491CC1C57A00A988C8 /* Info.plist */,
+			);
+			path = "TSA RandomizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDB6B231CC1C57900A988C8 /* TSA Randomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDB6B4C1CC1C57A00A988C8 /* Build configuration list for PBXNativeTarget "TSA Randomizer" */;
+			buildPhases = (
+				4CDB6B201CC1C57900A988C8 /* Sources */,
+				4CDB6B211CC1C57900A988C8 /* Frameworks */,
+				4CDB6B221CC1C57900A988C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSA Randomizer";
+			productName = "TSA Randomizer";
+			productReference = 4CDB6B241CC1C57900A988C8 /* TSA Randomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDB6B371CC1C57A00A988C8 /* TSA RandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDB6B4F1CC1C57A00A988C8 /* Build configuration list for PBXNativeTarget "TSA RandomizerTests" */;
+			buildPhases = (
+				4CDB6B341CC1C57A00A988C8 /* Sources */,
+				4CDB6B351CC1C57A00A988C8 /* Frameworks */,
+				4CDB6B361CC1C57A00A988C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDB6B3A1CC1C57A00A988C8 /* PBXTargetDependency */,
+			);
+			name = "TSA RandomizerTests";
+			productName = "TSA RandomizerTests";
+			productReference = 4CDB6B381CC1C57A00A988C8 /* TSA RandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDB6B421CC1C57A00A988C8 /* TSA RandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDB6B521CC1C57A00A988C8 /* Build configuration list for PBXNativeTarget "TSA RandomizerUITests" */;
+			buildPhases = (
+				4CDB6B3F1CC1C57A00A988C8 /* Sources */,
+				4CDB6B401CC1C57A00A988C8 /* Frameworks */,
+				4CDB6B411CC1C57A00A988C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDB6B451CC1C57A00A988C8 /* PBXTargetDependency */,
+			);
+			name = "TSA RandomizerUITests";
+			productName = "TSA RandomizerUITests";
+			productReference = 4CDB6B431CC1C57A00A988C8 /* TSA RandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDB6B1C1CC1C57900A988C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Hulet";
+				TargetAttributes = {
+					4CDB6B231CC1C57900A988C8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4CDB6B371CC1C57A00A988C8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4CDB6B231CC1C57900A988C8;
+					};
+					4CDB6B421CC1C57A00A988C8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4CDB6B231CC1C57900A988C8;
+					};
+				};
+			};
+			buildConfigurationList = 4CDB6B1F1CC1C57900A988C8 /* Build configuration list for PBXProject "TSA Randomizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDB6B1B1CC1C57900A988C8;
+			productRefGroup = 4CDB6B251CC1C57900A988C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDB6B231CC1C57900A988C8 /* TSA Randomizer */,
+				4CDB6B371CC1C57A00A988C8 /* TSA RandomizerTests */,
+				4CDB6B421CC1C57A00A988C8 /* TSA RandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDB6B221CC1C57900A988C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6B321CC1C57900A988C8 /* LaunchScreen.storyboard in Resources */,
+				4CDB6B2F1CC1C57900A988C8 /* Assets.xcassets in Resources */,
+				4CDB6B2D1CC1C57900A988C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6B361CC1C57A00A988C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6B411CC1C57A00A988C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDB6B201CC1C57900A988C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6B2A1CC1C57900A988C8 /* ViewController.swift in Sources */,
+				4CDB6B281CC1C57900A988C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6B341CC1C57A00A988C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6B3D1CC1C57A00A988C8 /* TSA_RandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6B3F1CC1C57A00A988C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6B481CC1C57A00A988C8 /* TSA_RandomizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDB6B3A1CC1C57A00A988C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDB6B231CC1C57900A988C8 /* TSA Randomizer */;
+			targetProxy = 4CDB6B391CC1C57A00A988C8 /* PBXContainerItemProxy */;
+		};
+		4CDB6B451CC1C57A00A988C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDB6B231CC1C57900A988C8 /* TSA Randomizer */;
+			targetProxy = 4CDB6B441CC1C57A00A988C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDB6B2B1CC1C57900A988C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDB6B2C1CC1C57900A988C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CDB6B301CC1C57900A988C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDB6B311CC1C57900A988C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDB6B4A1CC1C57A00A988C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDB6B4B1CC1C57A00A988C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDB6B4D1CC1C57A00A988C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TSA Randomizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.TSA-Randomizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CDB6B4E1CC1C57A00A988C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TSA Randomizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.TSA-Randomizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CDB6B501CC1C57A00A988C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TSA RandomizerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.TSA-RandomizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSA Randomizer.app/TSA Randomizer";
+			};
+			name = Debug;
+		};
+		4CDB6B511CC1C57A00A988C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TSA RandomizerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.TSA-RandomizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSA Randomizer.app/TSA Randomizer";
+			};
+			name = Release;
+		};
+		4CDB6B531CC1C57A00A988C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TSA RandomizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.TSA-RandomizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TSA Randomizer";
+			};
+			name = Debug;
+		};
+		4CDB6B541CC1C57A00A988C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TSA RandomizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.TSA-RandomizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TSA Randomizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDB6B1F1CC1C57900A988C8 /* Build configuration list for PBXProject "TSA Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6B4A1CC1C57A00A988C8 /* Debug */,
+				4CDB6B4B1CC1C57A00A988C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDB6B4C1CC1C57A00A988C8 /* Build configuration list for PBXNativeTarget "TSA Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6B4D1CC1C57A00A988C8 /* Debug */,
+				4CDB6B4E1CC1C57A00A988C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDB6B4F1CC1C57A00A988C8 /* Build configuration list for PBXNativeTarget "TSA RandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6B501CC1C57A00A988C8 /* Debug */,
+				4CDB6B511CC1C57A00A988C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDB6B521CC1C57A00A988C8 /* Build configuration list for PBXNativeTarget "TSA RandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6B531CC1C57A00A988C8 /* Debug */,
+				4CDB6B541CC1C57A00A988C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDB6B1C1CC1C57900A988C8 /* Project object */;
+}
